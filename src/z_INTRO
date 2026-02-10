@@ -1,0 +1,57 @@
+    REACT (3000)
+- Open source -- is a extension of js framework
+- It uses a component-based architecture and a virtual DOM for efficient rendering.
+- extension is .jsx
+HTML code inside the JS is -- react
+
+CREATE REACT PROJECT
+npx create-react-app XReact
+
+- React (general verb): Simply means to respond to something.
+
+Why React is worth learning
+- Component-based: Breaks UI into reusable pieces (buttons, forms, cards).
+- Virtual DOM: Updates only what’s necessary, making apps faster.
+
+    COMPONENTS      *****************************
+Breaks UI into reusable pieces (buttons, forms, cards)
+Changes made in one components it doesn't effect other parts
+
+    TYPES OF COMPONENTS
+1.FUNCTIONAL COMPONENTS
+2.CLASS COMPONENTS
+
+    PROPERTIES (props)          ******************
+send one component to other
+interact with one comp to other
+uni directional
+pass inside function(props)
+
+    PROPERTY DESTRUCTION    ****************
+pass entire obj in function and printing individual values
+
+    SYNTAX
+const{key1,k2,k3} = props.value1,props.v2,props.v2,props.v3
+flower brackets {}
+in hooks []     ****************
+
+    HOOKS        **********************
+inbuild functions -- perform entire life cycle
+as it is inbuild v need to import and use
+    TYPES OF HOOKS
+USE STATE -- store and modify
+USE EFFECTS --read , fetch ,(handles exceptions while calling ) api call,
+USE REF -- DOM
+USE CONTEXT -- Bulk data
+
+    USE STATE
+value will be stored in state
+and can be modified
+    Syntax
+const [stateVariable, setStateFunction] = useState(initialValue);
+
+
+    USE EFFECT
+write outside return but inside return
+    syntax
+useEffect(  (//callback or  Side effect logic here )=> <> , [] )
