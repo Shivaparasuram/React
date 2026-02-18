@@ -2,13 +2,13 @@ import {useEffect , useState} from 'react'
 
 const Pro8=()=>{
 
-        const[name,setData]=useState("Bengaluru !x");
+        const[name,setName]=useState("Bengaluru !x");
 
         useEffect(()=>{
                     if(name == "Bengaluru !x")
-                        setData("Goa !x")
+                        setName("Goa !x")
                     else
-                        setData("Bombay !x")
+                        setName("Bombay !x")
                     },[])
 
     return (

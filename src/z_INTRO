@@ -1,7 +1,7 @@
     REACT (3000)
 - Open source -- is a extension of js framework
 - It uses a component-based architecture and a virtual DOM for efficient rendering.
-- extension is .jsx
+- extension is .jsx(js xml)
 HTML code inside the JS is -- react
 
 CREATE REACT PROJECT
@@ -46,7 +46,7 @@ USE CONTEXT -- Bulk data
 
     USE STATE
 value will be stored in state
-and can be modified
+and can be modified & manipulate
     Syntax
 const [stateVariable, setStateFunction] = useState(initialValue);
 
@@ -54,4 +54,33 @@ const [stateVariable, setStateFunction] = useState(initialValue);
     USE EFFECT
 write outside return but inside return
     syntax
-useEffect(  (//callback or  Side effect logic here )=> <> , [] )
+useEffect(  (//callback or  Side effect logic here )=> {} , [] )
+
+
+        FETCH OBJ FROM ARRAY IN REACT
+we make use of Map method to access the data inside the array obj
+
+WEBSITE -- JSON Placeholder
+- fake api for practice
+
+fetch()
+read data from Backend and chances of reading some data and some not
+
+await -- read till entire data is read in fetch method
+async() -- while using await it is mandatory best-friend of await
+
+stringify --
+
+e.prevent default() -- avoid page reload while using the forms
+
+    Fetch
+we pass url of insert and objects (in obj method ,header ,body)
+
+
+    npmjs.com(node package container) -- feature ready to use
+react-axios -- 3rd party fetch data from DB
+React-Toastify -- like alert messages
+
+
+axios -- contains get methods
+ -- use .data to convert into json or any other automatically

@@ -10,4 +10,4 @@ function Pro6(z){
 
         )}
 
-export default Pro6
+export default Pro6;

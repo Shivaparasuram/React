@@ -6,7 +6,7 @@ import Pro6 from './Pro6.jsx';
 let person ={
 name1:"Scout !",
 age:20,
-spec:"VV"
+spec:"M24 !"
 }
 
 

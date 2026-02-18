@@ -8,7 +8,7 @@ function Pro1() {
             <h2>This is REACT !!</h2> {/* Framework intro */}
             
             {/* Calling another component */}
-            <C /> 
+            <C />
         </div>
     );
 }

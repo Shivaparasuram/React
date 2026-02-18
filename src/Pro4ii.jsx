@@ -1,4 +1,4 @@
-function Pro4ii(props,){
+function Pro4ii(props){
     return(
         <div>
         <h2>Age is {props.age}</h2>

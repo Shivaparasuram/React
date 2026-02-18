@@ -6,6 +6,7 @@ function Pro5(pro){
         <h2>{age}</h2>
         <h2>{spec}</h2>
         </div>
-        )}
+        )};
+
 
 export default Pro5
