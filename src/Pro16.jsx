@@ -8,12 +8,12 @@ const Pro16 = () => {
     const value = data.current.value.trim(); // remove extra spaces
 
     if (value === "") {
-      alert(" ☠ ︎︎!"); // ✅ prevent null/empty submission
+      alert(" ☠ ︎︎!"); // prevent null/empty submission
       return;
     }
 
     console.log(value);
-    data.current.value = ""; // ✅ clear input after submit
+    data.current.value = ""; // clear input after submit
   };
 
   return (

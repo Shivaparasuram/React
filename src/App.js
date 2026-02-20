@@ -21,6 +21,7 @@ import Pro13 from "./Pro13.jsx"
 import Pro14 from "./Pro14.jsx"
 import Pro15 from "./Pro15.jsx"
 import Pro16 from "./Pro16.jsx"
+import ContactUs from "./ContactUs.jsx"
 
 // pro4i and pro4ii & Pro5
 
@@ -61,7 +62,9 @@ function App() {
        {/* <Pro12i/> */}
        {/* <Pro13/> */}
        {/* <Pro14/> */}
-       <Pro16/>
+       {/* <Pro15/> */}
+       {/* <Pro16/> */}
+       <ContactUs/>
 
 
 
