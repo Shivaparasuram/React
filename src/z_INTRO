@@ -84,3 +84,16 @@ React-Toastify -- like alert messages
 
 axios -- contains get methods
  -- use .data to convert into json or any other automatically
+
+routing:routing is nothing but it goes to next page automatically changes the url , this can mapped throught the routing.
+url and pages can be mapped
+attributes or elements can be connected through the routers.
+connecting multiple elements
+
+
+    USE REF
+storing the data but doesn't reflect on the screen (not visible for user)
+directly assign value to data without events
+    SYNTAX
+const inputRef = useRef(null);
+
