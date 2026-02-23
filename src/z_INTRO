@@ -69,7 +69,7 @@ read data from Backend and chances of reading some data and some not
 await -- read till entire data is read in fetch method
 async() -- while using await it is mandatory best-friend of await
 
-stringify --
+stringify -- Convert JS object → JSON string
 
 e.prevent default() -- avoid page reload while using the forms
 
@@ -94,6 +94,7 @@ connecting multiple elements
     USE REF
 storing the data but doesn't reflect on the screen (not visible for user)
 directly assign value to data without events
+
     SYNTAX
 const inputRef = useRef(null);
 
@@ -104,3 +105,4 @@ GET BELOW D FROM --  https://dashboard.emailjs.com/admin
 SERVICE ID -TEMP ID -PUBLIC KEY
 
 CUSTOMER TO ADMIN (CONTACT US / SUPPORT MAIL / FEEDBACK)
+
